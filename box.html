@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    -webkit-animation-name: box; 
+    -webkit-animation-duration: 5s; 
+    animation-name: box;
+    animation-duration: 5s;
+    text-align: center;
+}
+
+
+@-webkit-keyframes box {
+    from {background-color: green;}
+    to {background-color: orange;}
+}
+
+
+@keyframes box {
+    from {background-color: green;}
+    to {background-color: orange;}
+}
+</style>
+</head>
+<body>
+
+<div><p id="box">BOX</p></div>
+
+
+</body>
+</html>
